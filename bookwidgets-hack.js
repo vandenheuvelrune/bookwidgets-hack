@@ -1,5 +1,5 @@
 console.clear();
-console.group("%cBookwidgets hack, gemaakt door %cRune Van den Heuvel", "font-size: 13px;", "color: aqua; font-size: 13px;");
+console.group("%cBookwidgets hack", "font-size: 13px;", "color: aqua; font-size: 13px;");
 try {
     let studentAccount = "Pieter-Jan Hufkens";
     let student = "Pieter-Jan Hufkens";
@@ -14,10 +14,10 @@ try {
     document.getElementById("student").disabled = false;
     console.info("Hack %csuccesvol %cuitgevoerd", "color: green;", "color: ;")
     console.info("→ Druk op 'Versturen'")
-    console.groupEnd("%cBookwidgets hack, gemaakt door %cRune Van den Heuvel");
+    console.groupEnd("%cBookwidgets hack");
 } catch (err) {
     console.error("Error when executing bookwidgets hack");
     console.error("Try again later, error message:")
     console.error(err.message);
-    console.groupEnd("%cBookwidgets hack, gemaakt door %cRune Van den Heuvel");
+    console.groupEnd("%cBookwidgets hack");
 }
